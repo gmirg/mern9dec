@@ -8,7 +8,7 @@ const Insert = (props) => {
     const [genero, setGenero] = useState("");
     const [director, setDirector] = useState("");
 
-    // ! Insertar tarea
+    // Insertar pelicula
     const insertar = () => {
         metaInfo("POST", { titulo, genero, director }, "/");
     };
